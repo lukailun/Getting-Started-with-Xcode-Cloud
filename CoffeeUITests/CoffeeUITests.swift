@@ -51,6 +51,7 @@ final class CoffeeUITests: XCTestCase {
   func testAddCoffeeWithNoNameShowsAlert() {
     CoffeesScreen()
       .tapAddCoffeeButton()
+    
     CoffeeScreen()
       .tapSaveCoffee()
       .tapCloseSaveCoffeeErrorAlertButton()
